@@ -1,9 +1,15 @@
 1. Движение персонажа и атака.
   Пользователь нажимает стрелочку вправо - приложение двигает персонажа вправо - пользователь, стоя слева от противника, нажимает стрелочку вправо - приложение наносит урон с учётом статистики героя и противника.
-https://github.com/Alexeezes/Repository/blob/main/docs/diagrami/activ_activ_diag.png
+
+https://github.com/Alexeezes/Repository/blob/main/docs/diagramt/activ_activ_diag.puml
+
 2. Взаимодествие с предметами.
   Пользователь нажимает клавишу "П" - приложение проверяет наличие предмета под персонажем и, если он есть, кладёт в инвентарь, если нет, указывает на это пользователю - ползователь нажимает клавишу "Ш" - приложение открывает инвентарь.
-https://github.com/Alexeezes/Repository/blob/main/docs/diagrami/items_activ_diag.png
+
+https://github.com/Alexeezes/Repository/blob/main/docs/diagramt/items_activ_diag.puml
+
 3. Поведение противников.
   Пользователь, находясь в поле зрения противника, делает ход - приложение, передвигая персонажа, двигает противника вслед за ним.
-https://github.com/Alexeezes/Repository/blob/main/docs/diagrami/monsters_activity_activ_diam.png
+
+https://github.com/Alexeezes/Repository/blob/main/docs/diagramt/monster_activity_activ_diam.puml
+
