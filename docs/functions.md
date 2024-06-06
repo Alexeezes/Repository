@@ -11,5 +11,5 @@ https://github.com/Alexeezes/Repository/blob/main/docs/diagramt/items_activ_diag
 3. Поведение противников.
   Пользователь, находясь в поле зрения противника, делает ход - приложение, передвигая персонажа, двигает противника вслед за ним.
 
-https://github.com/Alexeezes/Repository/blob/main/docs/diagramt/monster_activity_activ_diam.puml
+docs/diagramt/UML.puml
 
