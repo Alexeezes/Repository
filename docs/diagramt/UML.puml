@@ -1,0 +1,27 @@
+@startuml
+skinparam packageStyle rectangle
+:User: as U
+rectangle "Управление персонажем" {
+  usecase "Управление главным героем" as U1
+  usecase "Подбор предметов" as U2
+}
+
+rectangle "Игровой процесс" {
+  usecase "Использовнаие предметов" as U3
+  usecase "Перемещение персонажа" as U6
+  usecase "Убийство врагов" as U4
+}
+
+rectangle "Игровой интерфейс" {
+  usecase "Комментирование дествий" as U5
+  usecase "Просмотр инвентаря" as U7
+}
+
+U --> U1
+U1 --> U3
+U1 --> U4
+U2 --> U6
+U --> U5
+U --> U2
+U --> U7
+@enduml
