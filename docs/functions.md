@@ -13,3 +13,4 @@ https://github.com/Alexeezes/Repository/blob/main/docs/diagramt/items_activ_diag
 
 https://github.com/Alexeezes/Repository/blob/main/docs/diagramt/monster_activity_activ_diag.puml
 
+https://github.com/Alexeezes/Repository/blob/main/docs/diagramt/a.puml
