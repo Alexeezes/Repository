@@ -76,9 +76,3 @@ classDiagram
     Entity --> Item : содержит
     Entity --> Inventory : содержит
     Entity --> GameMap : взаимодействует
-
-    %% Вспомогательная функция get_blocking_entities_at_location
-    class get_blocking_entities_at_location {
-        +get_blocking_entities_at_location(entities: list, destination_x: int, destination_y: int): Entity
-    }
-    get_blocking_entities_at_location --> Entity : возвращает
