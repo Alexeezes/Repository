@@ -16,5 +16,7 @@
  5. Случайная карта.
 
     https://github.com/Alexeezes/Repository/blob/main/docs/functions.md
+
+    https://github.com/Alexeezes/Repository/blob/main/docs/struct.md
     
 Данный документ может редактироваться и дополняться по мере продвижения разработки.
