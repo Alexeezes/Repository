@@ -21,8 +21,20 @@
  4. Атаки со сторноы противников. Враги, обладая разными характеристиками, замечая героя, идут за ним по самому короткому маршруту.
  5. Случайная карта.
 
-    https://github.com/Alexeezes/Repository/blob/main/docs/functions.md
+## Функциональные модели
 
-    https://github.com/Alexeezes/Repository/blob/main/docs/struct.md
+[docs/functions.md](docs/functions.md)
+
+## Структурные модели
+
+[docs/struct.md](docs/struct.md)
+
+## Поведенческие модели
+
+[docs/behavior.md](docs/behavior.md)
+
+## План тестирования функциональных возможностей
+
+[docs/descriptions.md](docs/descriptions.md)
     
 Данный документ может редактироваться и дополняться по мере продвижения разработки.
