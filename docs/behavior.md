@@ -1,3 +1,8 @@
+# Диаграммы состояний и последовательности
+
+## Состояния игры (State Machine Diagram)
+
+```mermaid
 stateDiagram
     [*] --> PlayersTurn
     PlayersTurn --> EnemyTurn: Игрок сделал ход
