@@ -14,6 +14,7 @@ stateDiagram
     PlayersTurn --> PlayerDead: Игрок погиб
     EnemyTurn --> PlayerDead: Враг убивает игрока
 
+
 stateDiagram
     [*] --> Idle
     Idle --> Attack: Игрок в зоне видимости
@@ -21,6 +22,7 @@ stateDiagram
     MoveToPlayer --> Attack: Подошёл к игроку
     Attack --> Idle: Игрок вышел из зоны видимости
     Attack --> Dead: Враг погибает
+
 
 stateDiagram
     [*] --> Closed
@@ -30,6 +32,7 @@ stateDiagram
     Open --> DropItem: Выбрасывание предмета
     DropItem --> Open: Возврат к инвентарю
     Open --> Closed: Закрытие инвентаря
+
 
 sequenceDiagram
     participant Player
